@@ -1,0 +1,1279 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  font-family: 'Arimo', sans-serif;
+  background-color: #132031;
+}
+.top .top-left .location {
+  padding: 15px 20px;
+  border-left: 1px solid rgba(6, 179, 229, 0.3);
+}
+.top .top-left .phone {
+  padding: 15px 20px;
+  border-left: 1px solid rgba(6, 179, 229, 0.3);
+  border-right: 1px solid rgba(6, 179, 229, 0.3);
+}
+.top .top-left i {
+  font-size: 14px;
+  color: #06B3E5;
+  margin-right: 7px;
+}
+.top .top-left span {
+  font-size: 13px;
+  color: white;
+}
+.top .top-left a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #06B3E5;
+  transition: .3s ease-in-out;
+}
+.top .top-left a:hover {
+  color: white;
+}
+.top .top-right {
+  padding-top: 9px;
+  padding-right: 0;
+}
+.top .top-right i {
+  font-size: 12px;
+  color: white;
+  cursor: pointer;
+  margin: 0 3px;
+  transition: .3s ease-in-out;
+}
+.top .top-right i:hover {
+  color: #06B3E5;
+}
+.top .top-right button {
+  color: #fcfcfc;
+  background-color: #06b3e5;
+  font-size: 11px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin-left: 20px;
+  transition: all .3s ease-in-out;
+}
+.top .top-right button:hover {
+  color: #06b3e5;
+  background-color: #fcfcfc;
+}
+
+.header {
+  background-color: white;
+  font-family: 'Arimo', sans-serif;
+  padding: 2rem 0;
+}
+.header .header-right .icon {
+  padding-left: 20px;
+}
+.header .header-right .dropdown {
+  display: inline-block;
+  position: relative;
+}
+.header .header-right .dropdown:hover .drop-content1 {
+  visibility: visible;
+  top: 250%;
+}
+.header .header-right .dropdown:hover .drop-content2 {
+  visibility: visible;
+  top: 250%;
+}
+.header .header-right .dropdown:hover .drop-content3 {
+  visibility: visible;
+  top: 250%;
+}
+.header .header-right .dropdown:hover .drop-content4 {
+  visibility: visible;
+  top: 250%;
+}
+.header .header-right .dropdown .dropbtn {
+  margin-left: 20px;
+}
+.header .header-right .dropdown .dropbtn a {
+  color: #292b36;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: .3s all ease-in-out;
+}
+.header .header-right .dropdown .dropbtn a:hover {
+  color: #AFB1BB;
+}
+.header .header-right .dropdown .homebtn a {
+  color: #425CBB;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.header .header-right .dropdown .drop-content1 {
+  text-align: left;
+  position: absolute;
+  top: 300%;
+  left: 0;
+  z-index: 100;
+  min-width: 200px;
+  background-color: #F7F7F7;
+  padding: 20px 0 20px 20px;
+  visibility: hidden;
+  transition: .3s all ease-in-out;
+}
+.header .header-right .dropdown .drop-content1 a {
+  display: block;
+  color: #383b46;
+  font-size: 15px;
+  padding: 5px;
+  text-decoration: none;
+  transition: .3s all ease-in-out;
+}
+.header .header-right .dropdown .drop-content1 a:hover {
+  color: #06B3E5;
+}
+.header .header-right .dropdown .drop-content2 {
+  text-align: left;
+  position: absolute;
+  top: 300%;
+  left: 0;
+  z-index: 100;
+  min-width: 220px;
+  background-color: #F7F7F7;
+  padding: 20px 0 20px 20px;
+  visibility: hidden;
+  transition: .3s all ease-in-out;
+}
+.header .header-right .dropdown .drop-content2 a {
+  display: block;
+  color: #383b46;
+  font-size: 15px;
+  padding: 5px;
+  text-decoration: none;
+  transition: .3s all ease-in-out;
+}
+.header .header-right .dropdown .drop-content2 a:hover {
+  color: #06B3E5;
+}
+.header .header-right .dropdown .drop-content3 {
+  text-align: left;
+  position: absolute;
+  top: 300%;
+  right: -140%;
+  z-index: 100;
+  min-width: 100px;
+  background-color: #F7F7F7;
+  padding: 40px 0 40px 20px;
+  visibility: hidden;
+  transition: .3s all ease-in-out;
+}
+.header .header-right .dropdown .drop-content3 .content-parts {
+  min-width: 270px;
+}
+.header .header-right .dropdown .drop-content3 .content-parts a {
+  display: block;
+  color: #383b46;
+  font-size: 15px;
+  padding: 5px 0;
+  text-decoration: none;
+  transition: .3s all ease-in-out;
+}
+.header .header-right .dropdown .drop-content3 .content-parts a:hover {
+  color: #06B3E5;
+}
+.header .header-right .dropdown .drop-content4 {
+  text-align: left;
+  position: absolute;
+  top: 300%;
+  right: -50%;
+  z-index: 100;
+  min-width: 100px;
+  background-color: #F7F7F7;
+  padding: 40px 0 40px 20px;
+  visibility: hidden;
+  transition: .3s all ease-in-out;
+}
+.header .header-right .dropdown .drop-content4 .content-parts {
+  min-width: 270px;
+}
+.header .header-right .dropdown .drop-content4 .content-parts a {
+  display: block;
+  color: #383b46;
+  font-size: 15px;
+  padding: 5px 0;
+  text-decoration: none;
+  transition: .3s all ease-in-out;
+}
+.header .header-right .dropdown .drop-content4 .content-parts a:hover {
+  color: #06B3E5;
+}
+.header .header-right .dropdown .drop-content4 .content-parts p {
+  color: #425CBB;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: .3s all ease-in-out;
+}
+.header .header-right .dropdown .drop-content4 .content-parts p:hover {
+  color: #383b46;
+}
+
+.first {
+  background-image: url(https://doctor-carter.seaside-themes.com/wp-content/uploads/revslider/1111/bg-01.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.first .first-text {
+  padding: 11rem 0;
+}
+.first .first-text h4 {
+  font-size: 20px;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+}
+.first .first-text h2 {
+  color: white;
+  font-size: 60px;
+  font-family: 'Rubik', sans-serif;
+}
+.first .first-text button {
+  margin: 15px 0;
+  width: 258px;
+  font-size: 14px;
+  color: white;
+  background-color: #06b3e5;
+  border: 2px solid #06b3e5;
+  border-radius: 30px;
+  padding: 12px 35px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  transition: .3s all ease-in-out;
+}
+.first .first-text button:hover {
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+.second .boxes {
+  position: absolute;
+  top: 102%;
+  left: 0;
+  overflow: hidden;
+}
+.second .boxes .icon {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.second .boxes .icon i {
+  font-size: 13px;
+  color: white;
+  cursor: pointer;
+}
+.second .boxes .icon .hover {
+  transition: .3s all ease-in-out;
+}
+.second .boxes .icon .hover:hover {
+  background-color: #878584;
+  border-radius: 50px;
+}
+.second .boxes .row {
+  font-family: 'Rubik', sans-serif;
+}
+.second .boxes .row .smallboxes {
+  padding: 60px 70px;
+}
+.second .boxes .row .smallboxes i {
+  font-size: 30px;
+  color: #00DEFF;
+  margin-right: 10px;
+}
+.second .boxes .row .smallboxes span {
+  color: white;
+  font-size: 24px;
+}
+.second .boxes .row .smallboxes p {
+  font-size: 15px;
+  color: white;
+  margin: 20px 0 40px 0;
+}
+.second .boxes .row .smallboxes button {
+  font-size: 13px;
+  padding: 5px 20px;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  border: 2px solid rgba(255, 255, 255, 0);
+  border-radius: 30px;
+  transition: .3s all ease-in-out;
+}
+.second .boxes .row .smallboxes button:hover {
+  border: 2px solid #FFFFFF;
+}
+.second .boxes .row .smallboxes:nth-child(1) {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.second .boxes .row .smallboxes:nth-child(3) {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.second .boxes .row .one {
+  background-color: #2382C4;
+}
+.second .boxes .row .two {
+  background-color: #2B56B8;
+}
+.second .boxes .row .three {
+  background-color: #162B62;
+}
+.second .new {
+  background-color: #F4F4F4;
+  padding-top: 9rem;
+}
+.second .new .second-text {
+  padding: 8rem 0;
+  margin-top: 10rem;
+  background-image: url(https://doctor-carter.seaside-themes.com/wp-content/uploads/2018/05/Medical-team.png);
+  background-position: center;
+  background-size: cover;
+}
+.second .new .second-text h2 {
+  font-size: 34px;
+  color: #0a0a0a;
+  font-family: 'Rubik', sans-serif;
+}
+.second .new .second-text h6 {
+  font-size: 15px;
+  color: #06b3e5;
+  font-family: 'Rubik', sans-serif;
+}
+.second .new .second-text h5 {
+  font-size: 23px;
+  color: #0a0a0a;
+  font-style: italic;
+  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  margin: 40px 0;
+}
+.second .new .second-text h4 {
+  font-size: 23px;
+  color: #0a0a0a;
+  font-style: italic;
+  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  margin: 40px 0;
+  display: none;
+}
+.second .new .second-text img {
+  padding-left: 85px;
+}
+
+.third {
+  background-color: #FCFCFC;
+  font-family: 'Rubik', sans-serif;
+  padding-bottom: 3rem;
+}
+.third .third-text {
+  text-align: center;
+  padding: 5rem 0;
+}
+.third .third-text h2 {
+  color: #0a0a0a;
+  font-size: 34px;
+}
+.third .third-text h6 {
+  color: #06b3e5;
+  font-size: 15px;
+}
+.third .underline {
+  padding: 0 15px 3rem 15px;
+}
+.third .underline .sections {
+  width: 20%;
+  padding-bottom: 1.5rem;
+  text-align: center;
+  border-bottom: 2px solid #ebebeb;
+  position: relative;
+}
+.third .underline .sections:hover::after {
+  width: 50%;
+}
+.third .underline .sections:hover::before {
+  width: 50%;
+}
+.third .underline .sections a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #a2a5ad;
+  transition: .3s all ease-in-out;
+}
+.third .underline .sections a:hover {
+  color: #292b36;
+}
+.third .underline .sections::after {
+  position: absolute;
+  content: '';
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #425CBB;
+  transition: .3s all ease-in-out;
+}
+.third .underline .sections::before {
+  position: absolute;
+  content: '';
+  bottom: -2px;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: #425CBB;
+  transition: .3s all ease-in-out;
+}
+.third .underline .one {
+  width: 20%;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #425CBB;
+  text-align: center;
+}
+.third .underline .one a {
+  color: #292b36;
+  text-decoration: none;
+  font-size: 20px;
+}
+.third .third-main .part2 {
+  padding: 2rem 0 2rem 5rem;
+}
+.third .third-main .part2 h3 {
+  color: #292b36;
+  font-size: 24px;
+  font-family: 'Rubik', sans-serif;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.third .third-main .part2 p {
+  font-size: 15px;
+  font-family: 'Arimo', sans-serif;
+  color: #383b46;
+}
+.third .third-main .part2 button {
+  background-color: #fcfcfc;
+  color: white;
+  background-color: #06b3e5;
+  border: 2px solid #06b3e5;
+  font-size: 14px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  white-space: nowrap;
+  padding: 13px 32px;
+  border-radius: 25px;
+  margin-top: 35px;
+  transition: .3s all ease-in-out;
+}
+.third .third-main .part2 button:hover {
+  color: #06b3e5;
+  background-color: white;
+}
+
+.forth {
+  background-image: url(https://doctor-carter.seaside-themes.com/wp-content/uploads/2018/05/3.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 5rem 0;
+}
+.forth .one .departments h3 {
+  font-size: 34px;
+  color: white;
+  font-family: 'Rubik', sans-serif;
+}
+.forth .one .departments p {
+  font-family: 'Rubik', sans-serif;
+  color: #06b3e5;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+.forth .one .icons {
+  padding-top: 2rem;
+}
+.forth .one .icons i {
+  color: white;
+  font-size: 11px;
+  border: .5px solid #56688B;
+  border-radius: 50px;
+  padding: 10px 12px;
+  cursor: pointer;
+  transition: .3s all ease-in-out;
+}
+.forth .one .icons i:hover {
+  color: #56688B;
+}
+.forth .two .images {
+  text-align: center;
+}
+.forth .two .images img {
+  border-radius: 7px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.forth .two .images a {
+  color: white;
+  font-size: 22px;
+  font-family: 'Rubik', sans-serif;
+  text-decoration: none;
+  transition: .3s all ease-in-out;
+}
+.forth .two .images a:hover {
+  color: #56688B;
+}
+
+.numbers {
+  font-family: 'Rubik', sans-serif;
+  background-color: #F2F2F2;
+  padding: 4rem 0 3rem 0;
+}
+.numbers h3 {
+  color: #425cbb;
+  font-size: 39px;
+  margin-bottom: 25px;
+}
+.numbers p {
+  color: #292b36;
+  font-size: 18px;
+}
+
+.fifth {
+  background-color: #FCFCFC;
+  padding-bottom: 5rem;
+}
+.fifth .fifth-text {
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  padding: 5rem 0 3rem 0;
+}
+.fifth .fifth-text h2 {
+  color: #0a0a0a;
+  font-size: 34px;
+}
+.fifth .fifth-text h6 {
+  color: #06b3e5;
+  font-size: 15px;
+}
+.fifth .row .imageparts img {
+  border-radius: 7px;
+  cursor: pointer;
+}
+.fifth .row .imageparts .text h3 {
+  color: #a2a5ad;
+  font-size: 14px;
+  font-family: 'Arimo', sans-serif;
+  letter-spacing: 2px;
+  margin: 20px 0;
+}
+.fifth .row .imageparts .text a {
+  color: #425cbb;
+  font-size: 20px;
+  font-family: 'Rubik', sans-serif;
+  text-decoration: none;
+  transition: .3s all ease-in-out;
+}
+.fifth .row .imageparts .text a:hover {
+  color: #a2a5ad;
+}
+.fifth .row .imageparts .text p {
+  margin-top: 15px;
+  color: #383b46;
+  font-family: 'Arimo', sans-serif;
+}
+.fifth .alticons .one {
+  font-size: 10px;
+  color: #a2a5ad;
+  cursor: pointer;
+  margin-right: 12px;
+}
+.fifth .alticons .two {
+  font-size: 10px;
+  color: #dfdfdf;
+  cursor: pointer;
+  margin-right: 12px;
+  transition: .3s all ease-in-out;
+}
+.fifth .alticons .two:hover {
+  color: #a2a5ad;
+}
+.fifth .alticons .three {
+  display: none;
+  font-size: 10px;
+  color: #dfdfdf;
+  cursor: pointer;
+  margin-right: 12px;
+  transition: .3s all ease-in-out;
+}
+.fifth .alticons .three:hover {
+  color: #a2a5ad;
+}
+
+.bigimage {
+  background-image: url(https://doctor-carter.seaside-themes.com/wp-content/uploads/2018/05/2-paralax.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  padding: 325px 0;
+}
+
+.patient {
+  padding: 5rem 0 7rem 0;
+  background-image: url(https://doctor-carter.seaside-themes.com/wp-content/uploads/2018/05/4.jpg);
+  background-position: center;
+  background-size: cover;
+  font-family: 'Rubik', sans-serif;
+}
+.patient p {
+  padding-bottom: 2rem;
+  color: #06b3e5;
+  font-size: 15px;
+  text-align: center;
+}
+.patient .icons {
+  padding: 4rem 15px;
+}
+.patient .icons i {
+  font-size: 42px;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: .3s all ease-in-out;
+}
+.patient .icons i:hover {
+  color: #E4E4E4;
+}
+.patient .quotes img {
+  width: 150px;
+  border-radius: 50%;
+}
+.patient .quotes h3 {
+  color: #FFFFFF;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.patient .quotes h5 {
+  color: #FFFFFF;
+  font-size: 18px;
+}
+.patient .quotes h6 {
+  color: #06b3e5;
+  font-size: 15px;
+}
+.patient .quotes .mediatext {
+  display: none;
+}
+
+.heads {
+  padding-bottom: 5rem;
+  background-color: #FCFCFC;
+  text-align: center;
+}
+.heads .head-text {
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  padding: 5rem 0 3rem 0;
+}
+.heads .head-text h2 {
+  color: #0a0a0a;
+  font-size: 34px;
+}
+.heads .head-text h6 {
+  color: #06b3e5;
+  font-size: 15px;
+}
+.heads button {
+  margin-top: 2rem;
+  font-family: 'Rubik', sans-serif;
+  color: #fcfcfc;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #abaebb;
+  padding: 7px 12px;
+  border: none;
+  border-radius: 30px;
+  border: 2px solid #abaebb;
+  transition: .3s all ease-in-out;
+}
+.heads button:hover {
+  background-color: #FCFCFC;
+  color: #abaebb;
+}
+.heads .row .doctors .imagebox {
+  margin: auto;
+  position: relative;
+  width: 220px;
+  transition: .3s all ease-in-out;
+}
+.heads .row .doctors .imagebox:hover .overlay {
+  visibility: visible;
+}
+.heads .row .doctors .imagebox:hover .iconbox {
+  top: 50%;
+  visibility: visible;
+}
+.heads .row .doctors .imagebox img {
+  border-radius: 50%;
+}
+.heads .row .doctors .imagebox .overlay {
+  position: absolute;
+  background-color: #A3A9AF;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+  visibility: hidden;
+}
+.heads .row .doctors .imagebox .iconbox {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  visibility: hidden;
+  transform: translate(-50%, -50%);
+  transition: .3s all ease-in-out;
+}
+.heads .row .doctors .imagebox .iconbox i {
+  color: #FFFFFF;
+  font-size: 17px;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: .3s all ease-in-out;
+}
+.heads .row .doctors .imagebox .iconbox i:hover {
+  color: #dfdfdf;
+}
+.heads .row .doctors .textbox {
+  margin-top: 40px;
+}
+.heads .row .doctors .textbox a {
+  text-decoration: none;
+  color: #425cbb;
+  font-size: 24px;
+  font-family: 'Rubik', sans-serif;
+  transition: .3s all ease-in-out;
+}
+.heads .row .doctors .textbox a:hover {
+  color: #A5A8B0;
+}
+.heads .row .doctors .textbox h6 {
+  color: #162b62;
+  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+  margin-bottom: 25px;
+}
+.heads .row .doctors .textbox p {
+  color: #383b46;
+  font-size: 15px;
+  font-family: 'Arimo', sans-serif;
+}
+
+.section {
+  padding: 5rem 0;
+  border-top: 1px solid #ebebeb;
+  font-family: 'Rubik', sans-serif;
+  background-color: #FCFCFC;
+}
+.section .row .part1 {
+  position: relative;
+}
+.section .row .part1 img {
+  border-radius: 7px;
+}
+.section .row .part1 .text {
+  position: absolute;
+  top: 52%;
+  left: 3%;
+  padding: 0 30px;
+}
+.section .row .part1 .text h3 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+  line-height: 28px;
+}
+.section .row .part1 .text button {
+  font-size: 13px;
+  font-weight: bold;
+  padding: 7px 20px;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  border: 2px solid rgba(255, 255, 255, 0);
+  border-radius: 50px;
+  transition: .3s all ease-in-out;
+}
+.section .row .part1 .text button:hover {
+  border: 2px solid #FFFFFF;
+}
+.section .row .part2 {
+  background-color: #152B62;
+  border-radius: 7px;
+  padding: 0 30px;
+  font-size: 14px;
+  color: #383b46;
+  font-family: 'Arimo', sans-serif;
+}
+.section .row .part2 p {
+  color: white;
+  font-size: 27px;
+  padding: 20px 0  10px 0;
+}
+.section .row .part2 input {
+  width: 100%;
+  background-color: #F4F4F4;
+  color: #383b46;
+  padding: 10px 25px;
+  border: 1px solid #dfdfdf;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+.section .row .part2 select {
+  width: 100%;
+  background-color: #F4F4F4;
+  color: #383b46;
+  padding: 10px 25px;
+  border: 1px solid #dfdfdf;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+.section .row .part2 button {
+  width: 100%;
+  color: #fcfcfc;
+  background: #425CBB;
+  border: 2px solid #425cbb;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 12px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+.section .row .part2 button:hover {
+  background-color: #152B62;
+  color: #425cbb;
+}
+.section .row .part3 p {
+  color: #292b36;
+  font-size: 27px;
+}
+.section .row .part3 a {
+  display: block;
+  font-size: 17px;
+  color: #425cbb;
+  margin-bottom: 5px;
+  text-decoration: none;
+  transition: .3 ease-in-out;
+}
+.section .row .part3 a:hover {
+  color: #3EBAE8;
+}
+
+.brands {
+  padding-bottom: 4rem;
+}
+.brands h3 {
+  color: #292b36;
+  font-size: 24px;
+  font-family: 'Rubik', sans-serif;
+  margin-bottom: 40px;
+}
+.brands .one {
+  margin-top: -12px;
+}
+.brands .icons i {
+  font-size: 12px;
+  padding: 8px 11px;
+  background: transparent;
+  color: #292b36;
+  cursor: pointer;
+  border-radius: 50px;
+  border: 1px solid #E4E4E4;
+  transition: .3s all ease-in-out;
+}
+.brands .icons i:hover {
+  color: #E4E4E4;
+}
+
+.subscribe {
+  background-image: url(https://doctor-carter.seaside-themes.com/wp-content/uploads/2018/05/5.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 6rem 0;
+}
+.subscribe .mediabutton {
+  display: none;
+}
+.subscribe .mediabutton input {
+  outline: none;
+  width: 90%;
+  margin: auto;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: rgba(22, 43, 98, 0.3);
+  border: 1px solid #152B62;
+  font-family: 'Rubik', sans-serif;
+  transition: .3s all ease-in-out;
+  margin-bottom: 15px;
+}
+.subscribe .mediabutton input:hover {
+  border: 1px solid #06b3e5;
+}
+.subscribe .mediabutton button {
+  width: 35%;
+  border-radius: 30px;
+  outline: none;
+  border: 1px solid #162b62;
+  background-color: #162b62;
+  color: #ffffff;
+  padding: 8px 0;
+  font-family: 'Arimo', sans-serif;
+  transition: .3s all ease-in-out;
+}
+.subscribe .mediabutton button:hover {
+  background-color: #06b3e5;
+  border-color: #06b3e5;
+}
+.subscribe h2 {
+  color: white;
+  font-size: 28px;
+  font-weight: normal;
+  margin-bottom: 25px;
+  font-family: 'Rubik', sans-serif;
+}
+.subscribe p {
+  color: white;
+  font-size: 15px;
+  margin-top: 25px;
+  font-family: 'Arimo', sans-serif;
+}
+.subscribe .input {
+  width: 50%;
+  margin: auto;
+  padding: 3px 0;
+  border-radius: 30px;
+  background-color: rgba(22, 43, 98, 0.3);
+  border: 1px solid #152B62;
+  transition: .3s all ease-in-out;
+}
+.subscribe .input:hover {
+  border: 1px solid #06b3e5;
+}
+.subscribe .input input {
+  border: none;
+  background-color: transparent;
+  width: 70%;
+  outline: none;
+  padding-left: 20px;
+  font-family: 'Rubik', sans-serif;
+}
+.subscribe .input ::placeholder {
+  color: #91A1C8;
+}
+.subscribe .input button {
+  width: 28%;
+  border-radius: 30px;
+  outline: none;
+  border: 1px solid #162b62;
+  background-color: #162b62;
+  color: #ffffff;
+  padding: 8px 0;
+  font-weight: 700;
+  font-family: 'Arimo', sans-serif;
+  transition: .3s all ease-in-out;
+}
+.subscribe .input button:hover {
+  background-color: #06b3e5;
+  border-color: #06b3e5;
+}
+
+.blue {
+  background-color: #152B62;
+  padding: 3rem 0;
+}
+.blue p {
+  color: white;
+  font-size: 20px;
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+}
+.blue p span {
+  color: #06b3e5;
+}
+
+.footer1 {
+  background-color: #132031;
+  padding: 5rem 0;
+  border-top: 1px solid rgba(220, 220, 220, 0.1);
+  border-bottom: 1px solid rgba(220, 220, 220, 0.1);
+}
+.footer1 .parts h3 {
+  color: white;
+  font-size: 22px;
+  font-family: 'Rubik', sans-serif;
+  margin-bottom: 30px;
+}
+.footer1 .parts i {
+  color: #06b3e5;
+  font-size: 16px;
+  margin-bottom: 20px;
+  display: block;
+}
+.footer1 .parts a {
+  display: block;
+  font-size: 15px;
+  color: #778598;
+  font-family: 'Arimo', sans-serif;
+  text-decoration: none;
+  transition: .3s all ease-in-out;
+  margin-bottom: 10px;
+}
+.footer1 .parts a:hover {
+  color: #06b3e5;
+}
+.footer1 .parts span {
+  font-size: 15px;
+  color: #778598;
+  font-family: 'Arimo', sans-serif;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  font-weight: normal;
+}
+.footer1 .parts ul {
+  list-style: none;
+}
+.footer1 .parts ul li {
+  font-size: 15px;
+  color: #778598;
+  font-family: 'Arimo', sans-serif;
+  margin-bottom: 20px;
+}
+
+.footer2 {
+  background-color: #132031;
+  padding: 2rem 0;
+}
+.footer2 a {
+  font-size: 14px;
+  color: #778598;
+  font-family: 'Arimo', sans-serif;
+  text-decoration: none;
+  margin-left: 15px;
+  transition: .3s all ease-in-out;
+}
+.footer2 a:hover {
+  color: #06b3e5;
+  text-decoration: none;
+}
+.footer2 .ahref {
+  font-size: 15px;
+  color: #899faf;
+  font-family: 'Arimo', sans-serif;
+  text-decoration: none;
+  transition: .3s all ease-in-out;
+}
+.footer2 .ahref:hover {
+  color: #06b3e5;
+  text-decoration: none;
+}
+.footer2 span {
+  font-size: 14px;
+  color: #899faf;
+  font-family: 'Arimo', sans-serif;
+}
+
+.mediafooter {
+  display: none;
+}
+
+.media {
+  display: none !important;
+  margin-top: 4rem;
+}
+.media .arrow {
+  background-color: #132031;
+  padding: 5px 0;
+}
+.media .arrow i {
+  font-size: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.media .logo {
+  padding: 30px 0;
+}
+.media .hamburger {
+  padding: 15px 0 40px 0;
+}
+.media .hamburger i {
+  font-size: 16px;
+  color: #383b46;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: .3s all ease-in-out;
+}
+.media .hamburger i:hover {
+  color: #A2A5AD;
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .top {
+    display: none;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .media {
+    display: block !important;
+  }
+
+  .sections {
+    width: 100% !important;
+  }
+
+  .first .first-text {
+    padding: 8rem 0;
+  }
+  .first .first-text h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .first .first-text h2 {
+    font-size: 44px;
+    padding-right: 8rem;
+  }
+
+  .second .boxes {
+    top: 120%;
+  }
+  .second .boxes .icon {
+    margin-bottom: 8rem;
+  }
+  .second .boxes .smallboxes:nth-child(1) {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 0px !important;
+  }
+  .second .boxes .smallboxes:nth-child(3) {
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  .second .new {
+    padding-top: 50rem;
+  }
+  .second .new h5 {
+    display: none;
+  }
+  .second .new h4 {
+    display: block !important;
+    line-height: 30px;
+  }
+  .second .new img {
+    padding-left: 25px !important;
+  }
+
+  .third .third-main .part2 {
+    padding: 45px 30px;
+  }
+
+  .forth .two .images {
+    display: none;
+  }
+  .forth .two .images:nth-child(1) {
+    display: block;
+  }
+
+  .numbers .numberclass {
+    margin-bottom: 40px;
+  }
+
+  .fifth .imageparts {
+    display: none;
+  }
+  .fifth .imageparts:nth-child(1) {
+    display: block;
+  }
+  .fifth .alticons .three {
+    display: inline-block;
+  }
+
+  .bigimage {
+    background-attachment: scroll;
+  }
+
+  .patient .writing {
+    display: none;
+  }
+  .patient .mediatext {
+    display: block !important;
+    padding-top: 20px;
+  }
+  .patient .mediatext h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .section .part1 {
+    margin: 20px 20px 0 20px;
+    padding: 0 !important;
+  }
+  .section .part2 {
+    margin: 0 20px;
+    padding-bottom: 25px !important;
+    margin-bottom: 50px;
+  }
+
+  .brands .names {
+    display: none;
+    padding: 0 90px;
+  }
+  .brands .main {
+    display: block !important;
+  }
+
+  .subscribe {
+    padding: 3.5rem 0 !important;
+  }
+  .subscribe p {
+    padding: 0 10px;
+  }
+  .subscribe .input {
+    display: none;
+  }
+  .subscribe .mediabutton {
+    display: block;
+  }
+
+  .footer1 {
+    padding: 3rem 0 2rem 0 !important;
+  }
+  .footer1 .parts {
+    margin-bottom: 20px;
+  }
+
+  .footer2 {
+    display: none;
+  }
+
+  .mediafooter {
+    display: block;
+  }
+  .mediafooter .pieces {
+    text-align: center;
+    margin-bottom: 8px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
